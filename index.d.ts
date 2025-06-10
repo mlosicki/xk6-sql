@@ -312,6 +312,10 @@ export interface Database {
    * ```
    */
   queryWithTimeout(timeout: string, query: string, ...args: any[]): Row[];
+
+  queryCount(query: string, ...args: any[]): number;
+  queryCountWithTimeout(timeout: string, query: string, ...args: any[]): number;
+  forceGc(): any;
 }
 
 /**
