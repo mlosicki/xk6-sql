@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/grafana/xk6-sql/sql"
-	"github.com/grafana/xk6-sql/sqltest"
+	"github.com/mlosicki/xk6-sql-ext/sql"
+	"github.com/mlosicki/xk6-sql-ext/sqltest"
 	_ "github.com/proullon/ramsql/driver"
 )
 

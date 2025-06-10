@@ -3,7 +3,7 @@ package sql
 import (
 	"testing"
 
-	"github.com/grafana/xk6-sql/sql"
+	"github.com/mlosicki/xk6-sql-ext/sql"
 	"github.com/stretchr/testify/require"
 	"go.k6.io/k6/ext"
 )

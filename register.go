@@ -3,10 +3,10 @@
 package sql
 
 import (
-	"github.com/grafana/xk6-sql/sql"
-	"go.k6.io/k6/js/modules"
+    "github.com/mlosicki/xk6-sql-ext/sql"
+    "go.k6.io/k6/js/modules"
 )
 
 func init() {
-	modules.Register(sql.ImportPath, sql.New())
+    modules.Register(sql.ImportPath, sql.New())
 }
