@@ -1,4 +1,4 @@
-module github.com/mlosicki/xk6-sql
+module github.com/mlosicki/xk6-sql-ext
 
 go 1.23.0
 
